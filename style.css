@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* HEADER */
+.navup{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+.navbar{
+    margin-top: 0px;
+    padding-top: 5px;
+    color: white;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navheading{
+    color: black;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+/* #navheading{
+    color: black;
+    text-decoration: none;
+    align-self: center;
+    padding-left: 10px;
+} */
+
+.searchbox{
+    height: 30px;
+    width: 200px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 40px;
+    border-radius: 15px;
+    /* display: inline; */
+    background-color: rgb(223, 223, 223);
+    color: rgb(223, 223, 223);
+}
+.navdown{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+/* HEADER */
+
+/* MAIN */
+
+.video-container {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featured{
+    height: 450px;
+    width: 1160px;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.f1{
+    height: 100%;
+    width: 50%;
+    background-image: url(pexels-leon-ardho-1552242.jpg);
+    background-size: cover;
+}
+
+.f1content{
+    color: white;
+    margin-left: 50px;
+    margin-top: 250px;
+    font-size: 25px;
+    line-height: 175%;
+}
+
+.f2{
+    height: 100%;
+    width: 50%;
+    background-image: url(pexels-oliver-sjöström-1103833.jpg);
+    background-size: cover;
+    margin-left: 7.5px;
+}
+
+.f2content{
+    color: white;
+    margin-left: 50px;
+    margin-top: 250px;
+    font-size: 25px;
+    line-height: 175%;
+}
+
+.membership{
+    height: 500px;
+    width: 1160px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.m1{
+    height: 100%;
+    width: 33%;
+    background-image: url(pexels-ray-piedra-1476209.jpg);
+    background-size: cover;
+}
+
+.m1content{
+    color: white;
+    margin-left: 40px;
+    margin-top: 250px;
+    font-size: 20px;
+    line-height: 175%;
+}
+
+.m2{
+    height: 100%;
+    width: 33%;
+    background-image: url(pexels-aman-jakhar-1124465.jpg);
+    background-size: cover;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.m2content{
+    color: white;
+    margin-left: 40px;
+    margin-top: 250px;
+    font-size: 20px;
+    line-height: 175%;
+}
+
+.m3{
+    height: 100%;
+    width: 33%;
+    background-image: url(pexels-wallace-chuck-3081173.jpg);
+    background-size: cover;
+}
+
+.m3content{
+    color: white;
+    margin-left: 40px;
+    margin-top: 250px;
+    font-size: 20px;
+    line-height: 175%;
+}
+
+.popular{
+    height: 500px;
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    background-color: white;
+    display: flex;
+}
+
+
+
+.p1{
+    height: 100%;
+    width: 33%;
+    background-image: url(dunk-low-womens-shoes-4W2Z5P.png);
+    background-size: contain;
+    display: flex;
+
+}
+
+.p1a{
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    line-height: 20px;
+    align-self: flex-end;
+}
+
+.p2{
+    height: 100%;
+    width: 33%;
+    background-image: url(air-jordan-1-retro-high-og-mens-shoes-JHpxkn.png);
+    background-size: contain;
+    display: flex;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.p2a{
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    line-height: 20px;
+    align-self: flex-end;
+}
+
+.p3{
+    height: 100%;
+    width: 33%;
+    background-image: url(air-jordan-xxxviii-low-fundamental-basketball-shoes-f7GQhK.png);
+    background-size: contain;
+    display: flex;
+}
+
+.p3a{
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    line-height: 20px;
+    align-self: flex-end;
+}
+/* MAIN */
+
+/* FOOTER */
+
+.foot{
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 320px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;    
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    line-height: 40px;
+    font-size: smaller;
+}
+
+.privacy{
+    display: flex;
+    /* margin-left: 30px; */
+    justify-content: flex-end;
+    color: gray;
+    background-color: black;
+} 
+
+#pr{
+    margin-left: 35px;
+}
+
+.copyright{
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    padding-top: 40px;
+    font-size: 15px;
+}
+
+.supply{
+    margin-left: 625px;
+    color: gray;
+}
+
+/* FOOTER */
